@@ -21,6 +21,9 @@ import {Faqs} from "./components/faqs/Faqs";
 import {CircularNews} from './components/CircularNews/CircularNews';
 import {DateSheet} from './components/date-sheet/date-sheet';
 import {Activites} from './components/activities/activites';
+import {AllForms} from './components/AllForms/AllForms';
+
+
 
 class App extends Component {
   render() {
@@ -37,6 +40,8 @@ class App extends Component {
             <Route path="/circular-news" component={CircularNews} />
             <Route path="/date-sheet" component={DateSheet} />
             <Route path="/activities" component={Activites} />
+            <Route path="/allforms" component={AllForms} />
+
        </Switch>
        </Router>
     );

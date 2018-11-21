@@ -15,50 +15,56 @@ export class Footer extends Component{
             <div className="row">
                 <div className="col-sm-3">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Chairman</a></li>
-                        <li><a href="#">Secretary</a></li>
-                        <li><a href="#">Controller</a></li>
-                        <li><a href="#">Current Results</a></li>
-                        <li className="nav-item">
-                        <Link className="nav-link " to="/circular-news">Circular News</Link>
+                        <li><Link to="#">Home</Link></li>
+                        <li><Link to="#">Chairman</Link></li>
+                        <li><Link to="#">Secretary</Link></li>
+                        <li><Link to="#">Controller</Link></li>
+                        <li><Link to="#">Current Results</Link></li>
+                        <li>
+                        <Link to="/circular-news">Circular News</Link>
+                        </li>
+                        <li><Link to="http://www.biek.edu.pk/BIEK-TeacherRegForm/BIEKTeacherRegistrationForm.docx">Application Form</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <ul>
 
-                        <li><a href="#">Board Members</a></li>
-                        <li><a href="#">Faculties</a></li>
-                        <li><a href="#">Announced Results</a></li>
-                        <li><a href="#">Admission Criteria</a></li>
-                        <li className="nav-item">
-                        <Link className="nav-link " to="/date-sheet">Date Sheets</Link>
+                        <li><Link to="#">Board Members</Link></li>
+                        <li><Link to="#">Faculties</Link></li>
+                        <li><Link to="#">Announced Results</Link></li>
+                        <li><Link to="#">Admission Criteria</Link></li>
+                        <li>
+                        <Link to="/date-sheet">Date Sheets</Link>
                         </li>  
-                        <li className="nav-item">
-                         <Link className="nav-link " to="/activities">Activites</Link>
-                  </li>
+                        <li>
+                         <Link to="/activities">Activites</Link>
+                        </li>
+                        <li><Link to="http://www.biek.edu.pk/ModelPaper/ModelPAPER2017.pdf">Model Papers 2017</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <ul>
-                       <li><a href="#">Best Colleges</a></li>
-                        <li><a href="#">Committess</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Examination</a></li>
-                        <li><a href="#">All Forms</a></li>
-                        <li><a href="#">Sports</a></li>
+                       <li><Link to="#">Best Colleges</Link></li>
+                        <li><Link to="#">Committess</Link></li>
+                        <li><Link to="#">About us</Link></li>
+                        <li><Link to="#">Examination</Link></li>
+                        <li><Link to="#">All Forms</Link></li>
+                        <li><Link to="#">Sports</Link></li>
+                        <li><Link to="/allforms">All Forms</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <ul>
-                        <li><a href="#">Authorized Banks</a></li>
-                        <li><a href="#">Statistics</a></li>
-                        <li><a href="#">Tenders</a></li>
-                        <li><a href="#">Map of Board</a></li>
-                        <li><a href="#">Bus Routes</a></li>
-                        <li><a href="#">FAQS</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><Link to="#">Authorized Banks</Link></li>
+                        <li><Link to="#">Statistics</Link></li>
+                        <li><Link to="#">Tenders</Link></li>
+                        <li><Link to="#">Map of Board</Link></li>
+                        <li><Link to="#">Bus Routes</Link></li>
+                        <li><Link to="#">FAQS</Link></li>
+                        <li><Link to="#">Contact us</Link></li>
 
                     </ul>
                 </div>
@@ -70,13 +76,13 @@ export class Footer extends Component{
             </iframe>
         </div>
         <div className="social-networks">
-            <a href="#" className="twitter"><i className="fa fa-twitter"></i></a>
-            <a href="#" className="facebook"><i className="fa fa-facebook"></i></a>
-            <a href="#" className="google"><i className="fa fa-google-plus"></i></a>
+            <Link to="#" className="twitter"><i className="fa fa-twitter"></i></Link>
+            <Link to="#" className="facebook"><i className="fa fa-facebook"></i></Link>
+            <Link to="#" className="google"><i className="fa fa-google-plus"></i></Link>
         </div>
         <div className="footer-copyright">
             <p>© 2018 Copyright </p>
-            <p>Design and Develop by <a href="www.fiverr.com/ghayyasmubashir" target="_blank">Ghayyas Mubashir</a></p>
+            <p>Design and Develop by <Link to="www.fiverr.com/ghayyasmubashir" target="_blank">Ghayyas Mubashir</Link></p>
         </div>
     </footer>
            </>
