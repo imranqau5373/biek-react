@@ -1,0 +1,10 @@
+ul > li{
+    list-style: none;
+    padding: 5px;
+}
+.passed{
+    color: rgb(0, 173, 0);
+}
+.failed{
+    color: red;
+}
