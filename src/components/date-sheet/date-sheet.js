@@ -22,7 +22,7 @@ export class DateSheet extends Component{
                     <li><Link to="http://www.biek.edu.pk/datesheet/Annual%202018/DATE%20SHEET%20HSC%20ANNUAL%20EXAMINATION%202018%20(1).pdf">Consolidated DateSheet for Annual Examinations 2018 (New)</Link></li>
                     <li><Link to="http://www.biek.edu.pk/datesheet/2017/S-2017/final%20Date%20Sheet%20Supply%202017-27-11-17.pdf">Consolidated Datesheet for Supplimentry Examinations 2017</Link></li>
                     <li><Link to="http://www.biek.edu.pk/datesheet/ConsolidatedDateSheet%20Annual2017.pdf">Datesheet of the Annual Examinations 2017 (Phase - I)</Link></li>
-                    <li><Link to="#" disabled>Datesheet of the Annual Examinations 2017 (Phase - II)</Link></li>
+                    <li><Link to="#">Datesheet of the Annual Examinations 2017 (Phase - II)</Link></li>
 
                  </ul>
             </div>
