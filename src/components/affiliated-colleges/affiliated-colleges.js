@@ -21,11 +21,11 @@ export class AffliatedColleges extends Component{
                 <ul>
                     <li>
                         <p><b>Government Affiliated Colleges</b></p>
-                        <Link to="">All Male & Female & Co Colleges</Link>
+                        <Link to="/government-aff-c">All Male & Female & Co Colleges</Link>
                     </li>
                     <li>
                     <p><b>Private Affiliated Colleges</b></p>
-                        <Link to="">All Male, Female & Co Colleges</Link>
+                        <Link to="/private-aff-c">All Male, Female & Co Colleges</Link>
                     </li>
 
                 </ul>

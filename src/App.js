@@ -31,6 +31,10 @@ import {ControllerHistory} from './components/exam-controller-history/exam-contr
 import {BoardMembers} from './components/board-members/board-members';
 import {Faculties} from "./components/Faculties/Faculties";
 import {AffliatedColleges} from './components/affiliated-colleges/affiliated-colleges';
+import {GovernmentAffiliatedColleges} from './components/government-affiliated-colleges/government-affiliated-colleges';
+import {PrivateAffiliateColleges} from './components/private-affiliated-colleges/private-affiliated-collges';
+
+
 
 class App extends Component {
   render() {
@@ -57,6 +61,8 @@ class App extends Component {
             <Route path="/board-members" component={BoardMembers} />
             <Route path="/faculties" component={Faculties} />
             <Route path="/affiliated-colleges" component={AffliatedColleges} />
+            <Route path="/government-aff-c" component={GovernmentAffiliatedColleges} />
+            <Route path="/private-aff-c" component={PrivateAffiliateColleges} />
 
 
        </Switch>
