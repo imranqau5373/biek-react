@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+
 import "./main-content.css";
+
+import {Chairman} from '../chairman/chairman';
 
 export class MainContent extends Component{
     constructor(){
@@ -12,7 +16,7 @@ export class MainContent extends Component{
            <div class="container">
             <div class="row probootstrap-gutter60 mb50">
               <div class="col-md-6">
-                <figure><img src="http://www.biek.edu.pk/images/quaid.jpg" lt="Free Bootstrap Template by uicookies.com" class="img-responsive figure-img img-fluid rounded" />
+                <figure><img src="http://www.biek.edu.pk/images/quaid.jpg" lt="Free Bootstrap Template by uicookies.com" className="img-responsive figure-img img-fluid rounded" />
                 </figure>
               </div>
 
@@ -36,7 +40,7 @@ export class MainContent extends Component{
                 <p>M.Sc. in Communication Physics in 1976 from University of Sindh 
                    36 years teaching experience from intermediate to Post graduate level 
                     Ex: Director of College Education Karachi.</p>
-                <p><a href="#" class="btn g-bootstrap-heading">Read more</a></p>
+                <p><Link to="/chairman" class="btn g-bootstrap-heading">Read more</Link></p>
               </div>
               <div class="col-md-6">
                 <figure><img src="http://www.biek.edu.pk/Pic/Chairman.jpg" lt="Free Bootstrap Template by uicookies.com" class="img-responsive figure-img img-fluid" />

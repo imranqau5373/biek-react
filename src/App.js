@@ -22,8 +22,15 @@ import {CircularNews} from './components/CircularNews/CircularNews';
 import {DateSheet} from './components/date-sheet/date-sheet';
 import {Activites} from './components/activities/activites';
 import {AllForms} from './components/AllForms/AllForms';
-
-
+import {Chairman} from './components/chairman/chairman';
+import {CharimanHistory} from './components/history-of-chairman/history-of-chairman';
+import {Secretary} from'./components/Secretary/Secretary';
+import {SecretaryHistory} from './components/history-of-secretary/history-of-secretary';
+import {ExamController} from "./components/exam-controller/exam-controller";
+import {ControllerHistory} from './components/exam-controller-history/exam-controller-history';
+import {BoardMembers} from './components/board-members/board-members';
+import {Faculties} from "./components/Faculties/Faculties";
+import {AffliatedColleges} from './components/affiliated-colleges/affiliated-colleges';
 
 class App extends Component {
   render() {
@@ -41,6 +48,16 @@ class App extends Component {
             <Route path="/date-sheet" component={DateSheet} />
             <Route path="/activities" component={Activites} />
             <Route path="/allforms" component={AllForms} />
+            <Route path="/chairman" component={Chairman} />
+            <Route path="/chairman-history" component={CharimanHistory} />
+            <Route path="/secretary" component={Secretary} />
+            <Route path="/secretary-history" component={SecretaryHistory} />
+            <Route path="/exam-controller" component={ExamController} />
+            <Route path="/exam-controller-history" component={ControllerHistory}/>
+            <Route path="/board-members" component={BoardMembers} />
+            <Route path="/faculties" component={Faculties} />
+            <Route path="/affiliated-colleges" component={AffliatedColleges} />
+
 
        </Switch>
        </Router>

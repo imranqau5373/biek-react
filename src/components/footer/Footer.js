@@ -15,11 +15,11 @@ export class Footer extends Component{
             <div className="row">
                 <div className="col-sm-3">
                     <ul>
-                        <li><Link to="#">Home</Link></li>
-                        <li><Link to="#">Chairman</Link></li>
-                        <li><Link to="#">Secretary</Link></li>
-                        <li><Link to="#">Controller</Link></li>
-                        <li><Link to="#">Current Results</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/chairman">Chairman</Link></li>
+                        <li><Link to="/secretary">Secretary</Link></li>
+                        <li><Link to="/exam-controller">Controller</Link></li>
+                        <li><Link to="/result">Current Results</Link></li>
                         <li>
                         <Link to="/circular-news">Circular News</Link>
                         </li>
@@ -30,9 +30,10 @@ export class Footer extends Component{
                 <div className="col-sm-3">
                     <ul>
 
-                        <li><Link to="#">Board Members</Link></li>
-                        <li><Link to="#">Faculties</Link></li>
-                        <li><Link to="#">Announced Results</Link></li>
+                        <li><Link to="/board-members">Board Members</Link></li>
+                        <li><Link to="/faculties">Faculties</Link></li>
+                        <li><Link to="/result">Announced Results</Link></li>
+                        <li><Link to="/affiliated-colleges">Affiliated Colleges</Link></li>
                         <li><Link to="#">Admission Criteria</Link></li>
                         <li>
                         <Link to="/date-sheet">Date Sheets</Link>
