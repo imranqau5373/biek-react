@@ -4,7 +4,7 @@ export class AppointmentCommitteeMembers extends Component{
   
     render(){
         return(
-            <tr key={this.props.item.id}>
+            <tr>
                 <th scope="row">{this.props.item.name}</th>
                 <td>{this.props.item.designation}</td>
                 <td>{this.props.item.organization}</td>
@@ -18,7 +18,7 @@ export class AcadmicCommitteMembers extends Component{
     
     render(){
         return(
-            <tr key={this.props.item.id}>
+            <tr>
             <th scope="row">{this.props.item.name}</th>
             <td>{this.props.item.designation}</td>
             <td>{this.props.item.organization}</td>
@@ -32,7 +32,7 @@ export class FinanceCommitteMembers extends Component{
     
     render(){
         return(
-            <tr key={this.props.item.id}>
+            <tr>
             <th scope="row">{this.props.item.name}</th>
             <td>{this.props.item.designation}</td>
             <td>{this.props.item.organization}</td>

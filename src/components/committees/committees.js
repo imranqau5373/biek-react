@@ -3,9 +3,9 @@ import React,{Component} from "react";
 import {Footer} from '../footer/Footer';
 import {Header} from '../header/Header';
 import {AppointmentCommitteeMembers,FinanceCommitteMembers,AcadmicCommitteMembers} from './committeMember'; 
-import {CommitteesArray} from './committeesArray';
 
 import "./committes.css";
+import { appointmentCommitteeArray,financeCommitteeArray,academicCommitteeArray } from "./committeesArray";
 
 
 
@@ -16,8 +16,9 @@ export class Committees extends Component{
        this.appc= this.appc.bind(this);
        this.acc = this.acc.bind(this);
        this.fic = this.fic.bind(this);
+       
        this.state = {
-           show: 'appc',
+           show: 'appc'
        }
         
 
@@ -39,14 +40,14 @@ export class Committees extends Component{
         switch(this.state.show){
             case 'appointment':
             members = 'Appointment Committee Members';
-            showCommitteeMemebers = CommitteesArray.appcArray.map((item,index)=>{
+            showCommitteeMemebers = appointmentCommitteeArray.map((item,index)=>{
                 return <AppointmentCommitteeMembers item={item} key={index}/>
                });
             break;
             
             case 'finance':
             members= 'Finance Committee Members';
-            showCommitteeMemebers = CommitteesArray.ficArray.map((item,index)=>{
+            showCommitteeMemebers = financeCommitteeArray.map((item,index)=>{
                 return <FinanceCommitteMembers item={item} key={index}/>
                });
             
@@ -54,14 +55,14 @@ export class Committees extends Component{
             
             case 'acadmic':
             members= 'Academic Committee Memebers';
-            showCommitteeMemebers = CommitteesArray.accArray.map((item,index)=>{
+            showCommitteeMemebers = academicCommitteeArray.map((item,index)=>{
                 return <AcadmicCommitteMembers item={item} key={index}/>
                });
             break;
              
             default:
                members = 'Appointment Committee Members';
-               showCommitteeMemebers = CommitteesArray.appcArray.map((item,index)=>{
+               showCommitteeMemebers = appointmentCommitteeArray.map((item,index)=>{
                 return <AppointmentCommitteeMembers item={item} key={index}/>
                }); 
         }
