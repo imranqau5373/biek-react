@@ -34,7 +34,7 @@ export class Footer extends Component{
                         <li><Link to="/faculties">Faculties</Link></li>
                         <li><Link to="/result">Announced Results</Link></li>
                         <li><Link to="/affiliated-colleges">Affiliated Colleges</Link></li>
-                        <li><Link to="#">Admission Criteria</Link></li>
+                        <li><Link to="/add-cri">Admission Criteria</Link></li>
                         <li>
                         <Link to="/date-sheet">Date Sheets</Link>
                         </li>  
@@ -47,8 +47,8 @@ export class Footer extends Component{
                 </div>
                 <div className="col-sm-3">
                     <ul>
-                       <li><Link to="#">Best Colleges</Link></li>
-                        <li><Link to="#">Committess</Link></li>
+                       <li><Link to="/best-clg">Best Colleges</Link></li>
+                        <li><Link to="/committees">Committess</Link></li>
                         <li><Link to="#">About us</Link></li>
                         <li><Link to="#">Examination</Link></li>
                         <li><Link to="#">All Forms</Link></li>

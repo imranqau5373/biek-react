@@ -16,7 +16,7 @@ export class PrivateAffiliateColleges extends Component{
             <div className="container">
                 <div className="text-center">
                     <h3>AFFILIATED COLLEGES </h3>
-                    <h4>ALL MALE & FEMALE GOVERNMENT COLLEGES</h4>
+                    <h4>ALL MALE & FEMALE PRIVATE COLLEGES</h4>
                 </div>
                 <ul>
                     <li>
@@ -24,16 +24,16 @@ export class PrivateAffiliateColleges extends Component{
                         <p>B-280, Opposite ASF Head Quarter, Old Area, Airport, Karachi. Ph: 34570610-34580630, </p>
                     </li>
                     <li>
-                    <p><b>Govt. Degree College, Malir Cantt. </b></p>
-                        <p>Malir Cantt.,Karachi. Ph.99247248 </p>
+                    <p><b>A.S Gatta Memorial Secondary & Higher Secondary School,</b></p>
+                        <p>Tayyab Alvi Road, Memon Society, Lyari Quarters, Karachi. Ph: 32544922</p>
                     </li>
                     <li>
-                    <p><b>Govt. Degree Girls Arts & Commerce College, Malir C-1 Area</b></p>
-                        <p>C-1 Area Malir , Karachi Ph: 34407851, 34112182 0300-2968940</p>
+                    <p><b>Absa Higher Secondary School for the Deaf </b></p>
+                        <p>26-C, National Highway, Phase-II, Extn., Defence Housing Authority, Korangi Road, Karachi. </p>
                     </li>
                     <li>
-                    <p><b>Govt. Degree Girls College 7-C, Orangi Town</b></p>
-                        <p>Sector 7-C, Orangi Town, Near Qatar Hospital, Karachi. Ph # 36667403 , 0333-2342863, 0300-2503450</p>
+                    <p><b>Aga Khan Higher Secondary School(Evening Shift)</b></p>
+                        <p>1-5/B-VII, Karimabad, F.B. Area,Block-7, Karachi. Ph: 36826751-9</p>
                     </li>
                     <li>
                     <p><b>Govt. Degree Girls College Green Belt, Mehmoodabad</b></p>

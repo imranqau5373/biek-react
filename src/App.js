@@ -33,7 +33,9 @@ import {Faculties} from "./components/Faculties/Faculties";
 import {AffliatedColleges} from './components/affiliated-colleges/affiliated-colleges';
 import {GovernmentAffiliatedColleges} from './components/government-affiliated-colleges/government-affiliated-colleges';
 import {PrivateAffiliateColleges} from './components/private-affiliated-colleges/private-affiliated-collges';
-
+import {AdmissionCriteria} from './components/admission-cre/addcrit';
+import {BestColleges} from './components/best-colleges/best-colleges';
+import {Committees} from './components/committees/committees';
 
 
 class App extends Component {
@@ -63,7 +65,9 @@ class App extends Component {
             <Route path="/affiliated-colleges" component={AffliatedColleges} />
             <Route path="/government-aff-c" component={GovernmentAffiliatedColleges} />
             <Route path="/private-aff-c" component={PrivateAffiliateColleges} />
-
+            <Route path="/add-cri" component={AdmissionCriteria}/>
+            <Route path="/best-clg" component={BestColleges} />
+            <Route path="/committees" component={Committees} />
 
        </Switch>
        </Router>
