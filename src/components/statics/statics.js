@@ -1,8 +1,10 @@
-import React,{Component} from "react";
+import React,{Component} from 'react';
 
 import {Footer} from '../footer/Footer';
 import {Header} from '../header/Header';
-export class AdmissionCriteria extends Component{
+
+
+export class Statics extends Component{
     render(){
         return(
             <>
@@ -10,9 +12,9 @@ export class AdmissionCriteria extends Component{
             <br/>
             <br/>
             <br/>
-            <div className="container">
-                <h3>This Page is Under Construction</h3>
-            </div>
+                <div className="container">
+                  <h3>This Page is Under Construction..</h3>
+                </div>
             <br/>
             <br/>
             <br/>

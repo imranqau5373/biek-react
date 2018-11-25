@@ -4,9 +4,6 @@ import {Imageslider} from '../imageSlider/imageslider';
 import {MainContent} from '../main-content/main-content';
 import {Footer} from '../footer/Footer';
 export class Home extends Component{
-    constructor(){
-        super();
-    }
    render(){
     return (
         <>

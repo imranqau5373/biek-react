@@ -1,24 +1,10 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
-import {Redirect} from 'react-router';
-
 
 
 import {Header} from "../header/Header";
 import {Footer} from '../footer/Footer';
-import {BoardHistory} from "../BoardHistory/BoardHistory";
-import {Organogram} from "../Organogram/Organogram";
 export class About extends Component{
-    constructor(){
-        super();
-    }
-
-    // boardHistoryClick(){
-    //     <Redirect push to="/BoardHistory" />
-    // }
-
-
-
     render(){
         return(
             <>

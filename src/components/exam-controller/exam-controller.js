@@ -7,9 +7,6 @@ import {Footer} from '../footer/Footer';
 
 
 export class ExamController extends Component{
-   constructor(){
-       super();
-    }
 
    render(){
        return(
@@ -32,7 +29,8 @@ export class ExamController extends Component{
                 <p>Controller of Examinations (Acting ) Board of Intermediate Education Karachi </p>
              </div>
               <div class="col-md-6">
-                <figure><img src="https://www.ra-kazup.hr/karla/wp-content/uploads/2016/11/avatar-no-photo.png" alt="No Image Found" class="img-responsive figure-img img-fluid" />
+                <figure>
+                    <img src="https://www.ra-kazup.hr/karla/wp-content/uploads/2016/11/avatar-no-photo.png" alt="Not Found" class="img-responsive figure-img img-fluid" />
                 </figure>
               </div>
             </div>

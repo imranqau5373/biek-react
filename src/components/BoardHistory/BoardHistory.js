@@ -1,15 +1,8 @@
 import React,{Component} from 'react';
-import {Redirect} from 'react-router';
 
 import {Header} from '../header/Header';
 import {Footer} from '../footer/Footer';
 export class BoardHistory extends Component{
-   constructor(){
-       super();
-
-       
-   }
-
    render(){
        return(
         <>

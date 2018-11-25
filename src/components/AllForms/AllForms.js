@@ -6,9 +6,6 @@ import {Header} from '../header/Header';
 import {Footer} from '../footer/Footer';
 
 export class AllForms extends Component{
-    constructor(){
-        super()
-    }
     render(){
         return(
            <>

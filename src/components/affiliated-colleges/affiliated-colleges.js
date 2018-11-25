@@ -4,9 +4,6 @@ import {Link} from 'react-router-dom';
 import {Footer} from '../footer/Footer';
 import {Header} from '../header/Header';
 export class AffliatedColleges extends Component{
-    constructor(){
-        super()
-    }
     render(){
         return(
             <>

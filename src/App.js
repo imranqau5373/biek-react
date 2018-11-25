@@ -3,14 +3,9 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Switch,
-  Redirect
-} from 'react-router-dom'
+} from 'react-router-dom';
 
-import {Header} from './components/header/Header'
-
-// import { App } from "./App/App";
 import { Home } from "./components/home/Home";
 import { About } from "./components/about/About";
 import { Contact } from "./components/contact/Contact";
@@ -36,7 +31,11 @@ import {PrivateAffiliateColleges} from './components/private-affiliated-colleges
 import {AdmissionCriteria} from './components/admission-cre/addcrit';
 import {BestColleges} from './components/best-colleges/best-colleges';
 import {Committees} from './components/committees/committees';
-
+import {Examination} from './components/examination/examination';
+import {Sports} from './components/sports/sports';
+import {AuthorizeBank} from './components/authorizeBank/authorizeBank';
+import {Statics} from './components/statics/statics';
+import {BusRoutes} from './components/busRoutes/busRoutes';
 
 class App extends Component {
   render() {
@@ -68,6 +67,11 @@ class App extends Component {
             <Route path="/add-cri" component={AdmissionCriteria}/>
             <Route path="/best-clg" component={BestColleges} />
             <Route path="/committees" component={Committees} />
+            <Route path="/examination" component={Examination} />
+            <Route path="/sports" component={Sports} />
+            <Route path="/authorizeBank" component={AuthorizeBank} />
+            <Route path="/statics" component={Statics} />
+            <Route path="/bus-routes" component={BusRoutes} />
 
        </Switch>
        </Router>

@@ -7,9 +7,6 @@ import {Footer} from '../footer/Footer';
 
 
 export class CircularNews extends Component{
-    constructor(){
-        super();
-    }
     render(){
         return(
          <>

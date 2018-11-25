@@ -8,10 +8,6 @@ import {Footer} from '../footer/Footer';
 
 
 export class Chairman extends Component{
-   constructor(){
-       super();
-    }
-
    render(){
        return(
            <>
@@ -76,7 +72,7 @@ export class Chairman extends Component{
             <p>Amin</p>
             </div>
               <div class="col-md-6">
-                <figure><img src="http://www.biek.edu.pk/Pic/Chairman.jpg" lt="Free Bootstrap Template by uicookies.com" class="img-responsive figure-img img-fluid" />
+                <figure><img src="http://www.biek.edu.pk/Pic/Chairman.jpg" alt="Chairman" class="img-responsive figure-img img-fluid" />
                 </figure>
               </div>
             </div>

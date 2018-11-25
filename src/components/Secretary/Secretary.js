@@ -7,9 +7,6 @@ import {Footer} from '../footer/Footer';
 
 
 export class Secretary extends Component{
-   constructor(){
-       super();
-    }
 
    render(){
        return(
@@ -32,7 +29,7 @@ export class Secretary extends Component{
                 <p>No more Info...</p>
              </div>
               <div class="col-md-6">
-                <figure><img src="https://www.mhdrama.co.uk/wp-content/uploads/2018/03/dummy-female.png" lt="Free Bootstrap Template by uicookies.com" class="img-responsive figure-img img-fluid" />
+                <figure><img src="https://www.mhdrama.co.uk/wp-content/uploads/2018/03/dummy-female.png" alt="dummy" class="img-responsive figure-img img-fluid" />
                 </figure>
               </div>
             </div>

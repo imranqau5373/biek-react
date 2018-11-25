@@ -3,9 +3,6 @@ import React,{Component} from "react";
 import {Footer} from '../footer/Footer';
 import {Header} from '../header/Header';
 export class CharimanHistory extends Component{
-    constructor(){
-        super()
-    }
     render(){
         return(
             <>

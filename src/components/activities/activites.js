@@ -5,9 +5,6 @@ import {Header} from '../header/Header';
 import {Footer} from '../footer/Footer';
 
 export class Activites extends Component{
-    constructor(){
-        super();
-    }
     render(){
         return(
             <>

@@ -3,11 +3,6 @@ import {Header} from '../header/Header';
 import {Footer} from '../footer/Footer';
 
 export class Faqs extends Component{
-    constructor(){
-        super()
-
-    }
-
   render(){
       return(
        <>

@@ -5,9 +5,17 @@ import "./footer.css";
 export class Footer extends Component{
     constructor(){
         super();
+        this.openWindow = this.openWindow.bind(this);
+        
+    }
 
+    openWindow(){
+        window.open('https://www.fiverr.com/ghayyasmubashir','target=_blank');
     }
     render(){
+        const cursor ={
+            cursor: 'pointer'
+         }
         return(
             <>
              <footer id="myFooter">
@@ -49,31 +57,25 @@ export class Footer extends Component{
                     <ul>
                        <li><Link to="/best-clg">Best Colleges</Link></li>
                         <li><Link to="/committees">Committess</Link></li>
-                        <li><Link to="#">About us</Link></li>
-                        <li><Link to="#">Examination</Link></li>
-                        <li><Link to="#">All Forms</Link></li>
-                        <li><Link to="#">Sports</Link></li>
-                        <li><Link to="/allforms">All Forms</Link>
-                        </li>
+                        <li><Link to="/about">About us</Link></li>
+                        <li><Link to="/examination">Examination</Link></li>
+                        <li><Link to="/allforms">All Forms</Link></li>
+                        <li><Link to="/sports">Sports</Link></li>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <ul>
-                        <li><Link to="#">Authorized Banks</Link></li>
-                        <li><Link to="#">Statistics</Link></li>
+                        <li><Link to="/authorizeBank">Authorized Banks</Link></li>
+                        <li><Link to="/statics">Statistics</Link></li>
                         <li><Link to="#">Tenders</Link></li>
-                        <li><Link to="#">Map of Board</Link></li>
-                        <li><Link to="#">Bus Routes</Link></li>
-                        <li><Link to="#">FAQS</Link></li>
-                        <li><Link to="#">Contact us</Link></li>
+                        <li><Link to="/bus-routes">Bus Routes</Link></li>
+                        <li><Link to="/faqs">FAQS</Link></li>
+                        <li><Link to="/contact">Contact us</Link></li>
 
                     </ul>
                 </div>
             </div>
-            {/* <iframe id="map-container" frameborder="0"
-                src="https://www.google.com/maps/place/Board+of+Intermediate+Education+Karachi/@24.9336208,67.0212042,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33f8b45f35705:0xa3b866d72801603d!8m2!3d24.9336208!4d67.0233929" >
-            </iframe> */}
-            <iframe id="map-container" frameBorder="0" src="https://maps.google.com/maps?q=Board%20of%20Intermediate%20Education%20Karachi%2C%20Bakhtairi%20Youth%20Center%D8%8C%20North%20Nazimabad%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan&t=&z=11&ie=UTF8&iwloc=&output=embed">
+            <iframe title="google Maps" id="map-container" frameBorder="0" src="https://maps.google.com/maps?q=Board%20of%20Intermediate%20Education%20Karachi%2C%20Bakhtairi%20Youth%20Center%D8%8C%20North%20Nazimabad%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan&t=&z=11&ie=UTF8&iwloc=&output=embed">
             </iframe>
         </div>
         <div className="social-networks">
@@ -83,7 +85,7 @@ export class Footer extends Component{
         </div>
         <div className="footer-copyright">
             <p>© 2018 Copyright </p>
-            <p>Design and Develop by <Link to="www.fiverr.com/ghayyasmubashir" target="_blank">Ghayyas Mubashir</Link></p>
+            <p>Design and Develop by <a onClick={this.openWindow.bind(this)} style={cursor}>Ghayyas Mubashir</a></p>
         </div>
     </footer>
            </>

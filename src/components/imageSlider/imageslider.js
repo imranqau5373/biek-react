@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+
 import './imageSlider.css';
 
 export class Imageslider extends Component{
-    constructor(){
-        super()
-    }
     render(){
         return(
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -20,7 +19,6 @@ export class Imageslider extends Component{
                     <div className="carousel-caption text-center">
                     <h1>Wellcome to Board of Intermediate Education Karachi.</h1>
                     <p>This is Official Website of Board of Intermediate Education Karachi.</p>
-                    {/* <p><a className="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> */}
                     </div>
                 </div>
                 </div>
@@ -30,7 +28,7 @@ export class Imageslider extends Component{
                     <div className="carousel-caption text-center">
                     <h1>Want's Result on your Mobile?</h1>
                     <p>Type "BIEK" &lt;space&gt; Your Roll# and send it to 8583.</p>
-                    <p><a className="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <p><a className="btn btn-lg btn-primary" href="http://www.biek.edu.pk/karachi%20inter%20board%20banner%20(1).jpg" role="button">Learn more</a></p>
                     </div>
                 </div>
                 </div>
@@ -40,7 +38,7 @@ export class Imageslider extends Component{
                     <div className="carousel-caption text-center">
                     <h1>No Cheating.</h1>
                     <p>Chief Minister Mr. Murad Ali Shah gave Strickly Order to board.</p>
-                    <p><a className="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+                    <p><a className="btn btn-lg btn-primary" href="http://www.biek.edu.pk/activeties/picture%20galary/WhatsApp%20Image%202018-04-11%20at%201.55.08%20PM.jpeg" role="button">Learn More</a></p>
                     </div>
                 </div>
                 </div>
@@ -50,7 +48,7 @@ export class Imageslider extends Component{
                     <div className="carousel-caption text-center">
                     <h1>Two Girls win the 1st position in Board Exams.</h1>
                     <p>Two young girls Study Hard to give exams and take 1st position from Karachi.</p>
-                    <p><a className="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <p><Link className="btn btn-lg btn-primary" to="/activities" role="button">Browse gallery</Link></p>
                     </div>
                 </div>
                 </div>
